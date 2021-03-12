@@ -1,0 +1,40 @@
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+body{
+    padding:0;
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(190, 190, 190);
+    font-size: large;
+    color: white;
+    padding: 30px 0;
+
+}
+.actions>*{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.actions{
+    float: right;
+}
+.properties{
+    padding:0 0 0 30px;
+    display: flex;
+    justify-content:center;
+}
+.properties>*{
+    padding: 45px;
+}
+
+#stop{
+    background-color: red;
+    padding:5px 10px 0 10px;
+}
+#play{
+    background-color:#00fe00;
+    padding:5px 5px 2px 5px;
+}
